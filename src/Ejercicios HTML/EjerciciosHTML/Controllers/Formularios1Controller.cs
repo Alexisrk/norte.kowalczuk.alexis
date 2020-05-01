@@ -1,4 +1,5 @@
-﻿using System;
+﻿using EjerciciosHTML.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -10,6 +11,12 @@ namespace EjerciciosHTML.Controllers
     {
         // GET: Formularios1
         public ActionResult Index()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public ActionResult Index(Formulario1 form)
         {
             return View();
         }

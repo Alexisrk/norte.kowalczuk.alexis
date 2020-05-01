@@ -129,9 +129,12 @@
     <Compile Include="Controllers\FormulariosHTML5Controller.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ListasController.cs" />
+    <Compile Include="Controllers\Tablas1Controller.cs" />
+    <Compile Include="Controllers\Tablas2Controller.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\Formulario1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -174,14 +177,15 @@
     <Content Include="Views\ConceptosBasicos2\Index.cshtml" />
     <Content Include="Views\ConceptosBasicos3\Index.cshtml" />
     <Content Include="Views\Enlaces\Index.cshtml" />
+    <Content Include="Views\Listas\Index.cshtml" />
+    <Content Include="Views\Tablas1\Index.cshtml" />
+    <Content Include="Views\Tablas2\Index.cshtml" />
+    <Content Include="Views\Formularios1\Index.cshtml" />
+    <Content Include="Views\Formularios2\Index.cshtml" />
+    <Content Include="Views\FormulariosHTML5\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Models\" />
-    <Folder Include="Views\Formularios1\" />
-    <Folder Include="Views\Formularios2\" />
-    <Folder Include="Views\FormulariosHTML5\" />
-    <Folder Include="Views\Listas\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
