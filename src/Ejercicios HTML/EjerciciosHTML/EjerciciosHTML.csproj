@@ -134,6 +134,8 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\FormularioHTML5.cs" />
+    <Compile Include="Models\Formulario2.cs" />
     <Compile Include="Models\Formulario1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

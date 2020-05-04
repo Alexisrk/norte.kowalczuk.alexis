@@ -1,27 +1,48 @@
 ﻿
-    <form method="post" action="../Formularios1/Index">
-        <label for="nombre">Nombre</label>
-        <input type="text" name="nombre" required />
+@{
+    ViewBag.Title = "Mi Web";
+}
 
-        <label for="apellidos">Apellidos</label>
-        <input type="text" name="apellidos" />
+<form method="get" action="">
+    <h1>Formulario de Registro</h1>
 
-        <p>
-            <label for="sexo">Sexo</label>
-            <input type="radio" value="hombre" name="sexo" checked="checked" />
-            <label for="sexo">Hombre</label>
-            <input type="radio" name="sexo" value="mujer" />
-            <label for="sizeMed">Mujer</label>
-        </p>
+    <label for="nombre">Nombre:</label>
+    <input type="text" name="nombre" required maxlength="50"/>
 
-        <label for="email">Correo</label>
-        <input type="email" name="email" placeholder="aaa.bbb.com" />
+    <br />
+    <br />
 
-        <input type="checkbox" name="novedades" value="novedades"> <label for="novedades">Deseo recibir información sobre novedades y ofertas</label><br>
+    <label for="apellidos">Apellidos:</label>
+    <input type="text" name="apellidos" maxlength="50"/>
 
-        <input type="checkbox" id="aceptarcondiciones" value="aceptocondiciones"> <label for="aceptocondiciones">Declaro haber leido y aceptar las condiciones generales del programa y la normativa sobre protección de datos</label>
+    <br />
+    <br />
 
-        <br />
-        <button type="submit">Enviar</button>
-        <br />
-    </form>
+    <label for="sexo">Sexo</label>
+    <input type="radio" value="hombre" name="sexo" />
+    <label for="sexo">Hombre</label>
+    <input type="radio" name="sexo" value="mujer" />
+    <label for="sizeMed">Mujer</label>
+    
+    <br />
+    <br />
+
+    <label for="email">Correo:</label>
+    <input type="email" name="email" placeholder="nombre@proveedor.com" />
+
+    <br />
+    <br />
+
+
+    <input type="checkbox" name="novedades" value="true" checked> <label for="novedades">Deseo recibir información sobre novedades y ofertas</label><br>
+
+    <br />
+
+    <input type="checkbox" name="aceptocondiciones" value="true"> <label for="aceptocondiciones">Declaro haber leido y aceptar las condiciones generales del programa y la normativa sobre protección de datos</label>
+
+    <br />
+    <br />
+    <button type="submit">Enviar</button>
+    <br />
+</form>
+

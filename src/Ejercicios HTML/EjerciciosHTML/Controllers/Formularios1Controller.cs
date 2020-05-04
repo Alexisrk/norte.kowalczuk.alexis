@@ -15,7 +15,7 @@ namespace EjerciciosHTML.Controllers
             return View();
         }
 
-        [HttpPost]
+        [HttpGet]
         public ActionResult Index(Formulario1 form)
         {
             return View();
