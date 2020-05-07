@@ -1,16 +1,79 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ejercicios de HTML</title>
-    @Scripts.Render("~/bundles/modernizr")
+	<meta charset="utf-8" />
+	
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>UAI - Lenguaje de programación para la Administración - Ejercitación</title>
+
+	<link href="~/Content/site.css" rel="stylesheet" />
 </head>
 <body>
-    @RenderBody()
+	<div id="container">
+		<header>
+			<div class="header-rectangle-container">
+				<div class="blue-rectangle"></div>
+				<div class="red-rectangle"></div>
+			</div>
+			
+			<h1>UAI</h1>
+			<h2>Lenguaje de programación para la administración</h2>
 
-    @Scripts.Render("~/bundles/jquery")
-    @Scripts.Render("~/bundles/bootstrap")
-    @RenderSection("scripts", required: false)
+			<nav>
+				<ul>
+					<li><a href="../Home/Index">Home</a></li>
+					<li><a href="../Home/Ejercicios">Ejercicios</a></li>
+					<li><a href="../Home/About">About</a></li>
+					<li><a href="../Home/Contact">Contacto</a></li>
+				</ul>
+			</nav>
+		</header>
+		<section>
+			<article>
+				@RenderBody()
+			</article>
+			
+		</section>
+		<aside>
+			<h2>Información</h2>
+			<p>
+				En esta aplicación se podra
+				recorrer los diferentes ejercicios
+				realizados durante la cursada.
+			</p>
+			<br />
+			<p>
+				Los mismos están separados
+				por secciones.
+			</p>
+			<br />
+			<p>
+				Cada ejemplo esta desacoplado
+				del resto con lo cual, se puede
+				observar el comportamiento
+				como si estuviera en una pagina
+				independiente.
+			</p>
+		</aside>
+		<footer>
+			<div class="footer-info">
+				<p>2020 Copyright | Kowalczuk Alexis</p>
+			</div>
+			<ul>
+				<li><a href="https://twitter.com/alexisrkf"><img src="~/Content/twitter-icon.png" /></a></li>
+				<li><a href="mailto:alexisrk5@gmail.com"><img src="~/Content/mail-icon.png" /></a></li>
+				<li><a href="https://www.linkedin.com/in/alexis-kowalczuk-a279a5100/"><img src="~/Content/linkedin-icon.png" /></a></li>
+			</ul>
+			<div class="footer-rectangle-container">
+				<div class="blue-rectangle"></div>
+				<div class="red-rectangle"></div>
+			</div>
+
+		</footer>
+	</div>
+	
+	@RenderSection("scripts", required: false)
 </body>
 </html>

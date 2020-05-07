@@ -120,17 +120,9 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
-    <Compile Include="Controllers\ConceptosBasicos1Controller.cs" />
-    <Compile Include="Controllers\ConceptosBasicos2Controller.cs" />
-    <Compile Include="Controllers\ConceptosBasicos3Controller.cs" />
-    <Compile Include="Controllers\EnlacesController.cs" />
-    <Compile Include="Controllers\Formularios1Controller.cs" />
-    <Compile Include="Controllers\Formularios2Controller.cs" />
-    <Compile Include="Controllers\FormulariosHTML5Controller.cs" />
+    <Compile Include="Controllers\CSS3Controller.cs" />
     <Compile Include="Controllers\HomeController.cs" />
-    <Compile Include="Controllers\ListasController.cs" />
-    <Compile Include="Controllers\Tablas1Controller.cs" />
-    <Compile Include="Controllers\Tablas2Controller.cs" />
+    <Compile Include="Controllers\HTMLController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -140,10 +132,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Content\bootstrap-theme.css" />
-    <Content Include="Content\bootstrap-theme.min.css" />
-    <Content Include="Content\bootstrap.css" />
-    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\linkedin-icon.png" />
+    <Content Include="Content\mail-icon.png" />
+    <Content Include="Content\twitter-icon.png" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -170,34 +161,32 @@
     </Content>
     <Content Include="Views\Web.config" />
     <Content Include="Views\_ViewStart.cshtml" />
-    <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
-    <Content Include="Views\ConceptosBasicos1\Index.cshtml" />
-    <Content Include="Views\ConceptosBasicos2\Index.cshtml" />
-    <Content Include="Views\ConceptosBasicos3\Index.cshtml" />
-    <Content Include="Views\Enlaces\Index.cshtml" />
-    <Content Include="Views\Listas\Index.cshtml" />
-    <Content Include="Views\Tablas1\Index.cshtml" />
-    <Content Include="Views\Tablas2\Index.cshtml" />
-    <Content Include="Views\Formularios1\Index.cshtml" />
-    <Content Include="Views\Formularios2\Index.cshtml" />
-    <Content Include="Views\FormulariosHTML5\Index.cshtml" />
+    <Content Include="Views\HTML\ConceptosBasicos1.cshtml" />
+    <Content Include="Views\HTML\ConceptosBasicos2.cshtml" />
+    <Content Include="Views\HTML\ConceptosBasicos3.cshtml" />
+    <Content Include="Views\HTML\Enlaces.cshtml" />
+    <Content Include="Views\HTML\Listas.cshtml" />
+    <Content Include="Views\HTML\Tablas1.cshtml" />
+    <Content Include="Views\HTML\Tablas2.cshtml" />
+    <Content Include="Views\HTML\Formularios1.cshtml" />
+    <Content Include="Views\HTML\Formularios2.cshtml" />
+    <Content Include="Views\HTML\FormulariosHTML5.cshtml" />
+    <Content Include="Views\HTML\Index.cshtml" />
+    <Content Include="Views\Home\Ejercicios.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Views\CSS3\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
-    <Content Include="Content\bootstrap.min.css.map" />
-    <Content Include="Content\bootstrap.css.map" />
-    <Content Include="Content\bootstrap-theme.min.css.map" />
-    <Content Include="Content\bootstrap-theme.css.map" />
     <None Include="packages.config" />
     <Content Include="Scripts\jquery-3.4.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.4.1.min.map" />

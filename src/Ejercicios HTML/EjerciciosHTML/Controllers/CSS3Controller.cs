@@ -6,9 +6,9 @@ using System.Web.Mvc;
 
 namespace EjerciciosHTML.Controllers
 {
-    public class Tablas2Controller : Controller
+    public class CSS3Controller : Controller
     {
-        // GET: Tablas2
+        // GET: CSS3
         public ActionResult Index()
         {
             return View();
