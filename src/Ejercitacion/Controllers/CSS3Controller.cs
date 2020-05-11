@@ -38,6 +38,10 @@ namespace Ejercitacion.Controllers
 		{
 			return View();
 		}
+		public ActionResult MaquetaciónDeDiseñoFijo()
+		{
+			return View();
+		}
 		public ActionResult MaquetaciónDeDiseñoElastico()
 		{
 			return View();

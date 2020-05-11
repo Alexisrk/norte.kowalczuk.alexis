@@ -27,44 +27,45 @@ html {
 
 /*Layout*/
 
-#container {
-	width: 1500px;
-	margin: 10px auto;
-	background-color: #F6F7F9;
-}
+	#container {
+		width: 1500px;
+		margin: 10px auto;
+	}
 
-	#container header {
+	#container > header {
 		position: fixed;
 		width: 1500px;
 	}
 
-	#container section {
-		padding-top: 50px;
-		width: 70%;
-		float: left;
-		margin-top: 200px;
-		padding-bottom: 180px;
-		overflow-y: auto;
-	}
+		#container > section {
+			padding-top: 50px;
+			width: 70%;
+			float: left;
+			margin-top: 200px;
+			padding-bottom: 180px;
+			overflow-y: auto;
+			background-color: #F6F7F9;
+			min-height: 490px;
+		}
 
-	#container aside {
-		position: fixed;
-		right: 10.9%;
-		width: 450px;
-		height: 100%;
-		z-index: -1;
-		margin-top: 10px;
-		padding-top: 240px;
-	}
+		#container > aside {
+			position: fixed;
+			right: 10.58%;
+			width: 450px;
+			height: 100%;
+			z-index: -1;
+			margin-top: 10px;
+			padding-top: 240px;
+		}
 
-	#container footer {
-		width: 100%;
-		height: 220px;
-		/*clear: left;*/
-		display: flex;
-		position: fixed;
-		bottom: 0px;
-	}
+		#container > footer {
+			width: 100%;
+			height: 220px;
+			/*clear: left;*/
+			display: flex;
+			position: fixed;
+			bottom: 0px;
+		}
 
 .red-rectangle {
 	background: #675050;
@@ -79,35 +80,35 @@ html {
 }
 
 /*HEADER*/
-#container header {
+#container > header {
 	height: 280px;
 	display: flex;
 }
 
-header h1 {
-	font-family: "Segoe UI";
-	font-size: 64px;
-	font-weight: bold;
-	color: #D1D1D1;
-	margin: 50px;
-}
+	#container > header h1 {
+		font-family: "Segoe UI";
+		font-size: 64px;
+		font-weight: bold;
+		color: #D1D1D1;
+		margin: 50px;
+	}
 
-header h2 {
-	font-family: "Segoe UI Emoji";
-	font-weight: normal;
-	font-size: 30px;
-	color: #D1D1D1;
-	height: 100px;
-	width: 360px;
-	margin: 50px 10px;
-}
+	#container > header h2 {
+		font-family: "Segoe UI Emoji";
+		font-weight: normal;
+		font-size: 30px;
+		color: #D1D1D1;
+		height: 100px;
+		width: 360px;
+		margin: 50px 10px;
+	}
 
-header nav li {
-	list-style: none;
-	display: inline;
-	margin: 0;
-	padding: 0;
-}
+	#container > header nav li {
+		list-style: none;
+		display: inline;
+		margin: 0;
+		padding: 0;
+	}
 
 .header-rectangle-container {
 	height: 280px;
@@ -117,7 +118,7 @@ header nav li {
 	z-index: -1;
 }
 
-header .red-rectangle {
+#container > header .red-rectangle {
 	position: relative;
 	width: 120%;
 	height: 360px;
@@ -126,7 +127,7 @@ header .red-rectangle {
 }
 
 
-header .blue-rectangle {
+#container > header .blue-rectangle {
 	position: relative;
 	width: 120%;
 	height: 360px;
@@ -136,13 +137,13 @@ header .blue-rectangle {
 	opacity: 0.7;
 }
 
-header nav li {
+#container > header nav li {
 	position: relative;
 	right: 100px;
 	top: 50px;
 }
 
-	header nav li > a {
+	#container > header nav li > a {
 		text-decoration: none;
 		font-family: "Segoe UI Emoji";
 		font-size: 33px;
@@ -154,7 +155,7 @@ header nav li {
 			color: #ececec;
 		}
 
-header nav {
+#container > header nav {
 	transform: rotate(3deg);
 	position: relative;
 	right: -25%;
@@ -165,29 +166,29 @@ header nav {
 /*SECTION*/
 
 /*ASIDE*/
-aside {
+#container > aside {
 	background: #B2B5B4;
+	/*
 	padding-top: 280px;
-	/*padding-bottom: 50px;*/
 	margin-top: -280px;
-	/*margin-bottom: 120px;*/
 	height: 400px;
+		*/
 }
 
-	aside h2 {
+	#container > aside h2 {
 		font-family: "UniversS 45";
 		margin: 20px;
 		font-weight: lighter;
 	}
 
-	aside p {
+	#container > aside p {
 		font-family: Technical;
 		font-size: 20px;
 		margin: 0px 40px;
 	}
 
 /*FOOTER*/
-footer {
+#container > footer {
 	width: 100%;
 }
 
@@ -199,7 +200,7 @@ footer {
 	z-index: 0;
 }
 
-footer .red-rectangle {
+#container > footer .red-rectangle {
 	position: relative;
 	width: 120%;
 	height: 200px;
@@ -209,7 +210,7 @@ footer .red-rectangle {
 	z-index: -1;
 }
 
-footer .blue-rectangle {
+#container > footer .blue-rectangle {
 	position: relative;
 	width: 120%;
 	height: 200px;
@@ -221,7 +222,7 @@ footer .blue-rectangle {
 	z-index: 1;
 }
 
-footer img {
+#container > footer img {
 	height: 42px;
 }
 
@@ -235,7 +236,7 @@ footer img {
 	height: 30px;
 }
 
-footer ul {
+#container > footer ul {
 	list-style: none;
 	position: relative;
 	top: 140px;
@@ -244,14 +245,14 @@ footer ul {
 	z-index: 1;
 }
 
-	footer ul li {
+	#container > footer ul li {
 		display: inline;
 		margin: 10px;
 	}
 
 /*ARTICLE*/
 
-section article {
+#container > section > article {
 	margin: 10px;
 	overflow-y: auto;
 }

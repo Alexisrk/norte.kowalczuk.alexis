@@ -191,6 +191,7 @@
     <Content Include="Views\CSS3\Selectores2.cshtml" />
     <Content Include="Views\CSS3\Selectores3.cshtml" />
     <Content Include="Views\CSS3\MaquetaciónDeDiseñoElastico.cshtml" />
+    <Content Include="Views\CSS3\MaquetaciónDeDiseñoFijo.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
