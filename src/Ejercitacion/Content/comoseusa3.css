@@ -1,0 +1,36 @@
+﻿.comoseusa3 {
+	background: #CFC;
+}
+
+	.comoseusa3 * {
+		color: #00F;
+		font-family: Georgia, Cambria, serif;
+		font-size: 16px;
+	}
+
+	.comoseusa3 h1 {
+		color: #F00;
+		font-family: Verdana, Calibri, sans-serif;
+		font-size: 32px;
+	}
+
+	.comoseusa3 h2 {
+		color: #A00;
+		font-family: Verdana, Calibri, sans-serif;
+		font-size: 24px;
+	}
+
+	.comoseusa3 li span {
+		color: #060;
+	}
+
+	.comoseusa3 strong {
+		font-size: 20px;
+		font-weight: bold;
+	}
+
+	.comoseusa3 em {
+		color: #FFF;
+		font-style: italic;
+		background: #000;
+	}

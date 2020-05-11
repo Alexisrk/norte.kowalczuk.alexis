@@ -134,6 +134,7 @@
   <ItemGroup>
     <Content Include="Content\linkedin-icon.png" />
     <Content Include="Content\mail-icon.png" />
+    <Content Include="Content\comoseusa3.css" />
     <Content Include="Content\twitter-icon.png" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
