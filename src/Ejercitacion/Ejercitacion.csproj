@@ -141,6 +141,11 @@
     <Content Include="Content\Site.css" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Content\font\REFSAN.TTF" />
+    <Content Include="Content\font\segoeui.ttf" />
+    <Content Include="Content\font\seguiemj.ttf" />
+    <Content Include="Content\font\TECHNCLI.TTF" />
+    <Content Include="Content\font\UVSL.TTF" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
     <Content Include="Scripts\jquery-3.4.1.min.js" />
@@ -177,11 +182,17 @@
     <Content Include="Views\HTML\FormulariosHTML5.cshtml" />
     <Content Include="Views\HTML\Index.cshtml" />
     <Content Include="Views\Home\Ejercicios.cshtml" />
+    <Content Include="Views\CSS3\Index.cshtml" />
+    <Content Include="Views\CSS3\ComoSeUsa1.cshtml" />
+    <Content Include="Views\CSS3\ComoSeUsa2.cshtml" />
+    <Content Include="Views\CSS3\ComoSeUsa3.cshtml" />
+    <Content Include="Views\CSS3\Selectores1.cshtml" />
+    <Content Include="Views\CSS3\Selectores2.cshtml" />
+    <Content Include="Views\CSS3\Selectores3.cshtml" />
+    <Content Include="Views\CSS3\MaquetaciónDeDiseñoElastico.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Content\font\" />
-    <Folder Include="Views\CSS3\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
