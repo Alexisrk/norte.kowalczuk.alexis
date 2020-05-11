@@ -168,11 +168,6 @@ html {
 /*ASIDE*/
 #container > aside {
 	background: #B2B5B4;
-	/*
-	padding-top: 280px;
-	margin-top: -280px;
-	height: 400px;
-		*/
 }
 
 	#container > aside h2 {
@@ -273,6 +268,43 @@ html {
 	margin-bottom: 20px;
 	color: #4E4E4E;
 }
+
+
+/*ABOUT*/
+#about h2 {
+	font-family: "MS Reference Sans Serif";
+	font-size: 35px;
+	margin-left: 40px;
+	margin-bottom: 20px;
+	color: #4E4E4E;
+}
+
+#about p, #about li {
+	font-family: "Segoe UI Emoji";
+	font-size: 25px;
+	margin-left: 40px;
+	margin-bottom: 20px;
+	color: #4E4E4E;
+}
+
+
+/*CONTACT*/
+#contact h2 {
+	font-family: "MS Reference Sans Serif";
+	font-size: 35px;
+	margin-left: 40px;
+	margin-bottom: 20px;
+	color: #4E4E4E;
+}
+
+#contact p, #contact li, #contact address {
+	font-family: "Segoe UI Emoji";
+	font-size: 25px;
+	margin-left: 40px;
+	margin-bottom: 20px;
+	color: #4E4E4E;
+}
+
 
 /*EJERCICIOS*/
 .item-list {
