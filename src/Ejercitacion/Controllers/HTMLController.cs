@@ -1,11 +1,11 @@
-﻿using EjerciciosHTML.Models;
+﻿using Ejercitacion.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
-namespace EjerciciosHTML.Controllers
+namespace Ejercitacion.Controllers
 {
 	public class HTMLController : Controller
 	{

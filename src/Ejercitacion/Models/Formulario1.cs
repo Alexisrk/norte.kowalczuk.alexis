@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
-namespace EjerciciosHTML.Models
+namespace Ejercitacion.Models
 {
-		public class Formulario2
+		public class Formulario1
 		{
 				public string Nombre { get; set; }
 
@@ -14,10 +14,6 @@ namespace EjerciciosHTML.Models
 				public string Email { get; set; }
 
 				public string Sexo { get; set; }
-
-				public string Descripcion { get; set; }
-
-				public string Poblacion { get; set; }
 
 				public bool Novedades { get; set; }
 

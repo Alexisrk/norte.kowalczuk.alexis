@@ -1,4 +1,24 @@
 ﻿/*General*/
+@font-face {
+	font-family: Segoe UI;
+	src: local("Segoe UI"), url(../Content/font/segoeui.TTF) format("truetype");
+}
+@font-face {
+	font-family: Segoe UI Emoji;
+	src: local("Segoe UI Emoji"), url(../Content/font/seguiemj.TTF) format("truetype");
+}
+@font-face {
+	font-family: UniversS 45;
+	src: local("UniversS 45"), url(../Content/font/UVSL.TTF) format("truetype");
+}
+@font-face {
+	font-family: Technical;
+	src: local("Technical"), url(../Content/font/TECHNCLI.TTF) format("truetype");
+}
+@font-face {
+	font-family: MS Reference Sans Serif;
+	src: local("MS Reference Sans Serif"), url(../Content/font/REFSAN.TTF) format("truetype");
+}
 
 html {
 	width: 100%;
