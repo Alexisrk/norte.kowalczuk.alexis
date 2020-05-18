@@ -123,6 +123,7 @@
     <Compile Include="Controllers\CSS3Controller.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\HTMLController.cs" />
+    <Compile Include="Controllers\JSController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -192,6 +193,8 @@
     <Content Include="Views\CSS3\Selectores3.cshtml" />
     <Content Include="Views\CSS3\MaquetaciónDeDiseñoElastico.cshtml" />
     <Content Include="Views\CSS3\MaquetaciónDeDiseñoFijo.cshtml" />
+    <Content Include="Views\JS\Index.cshtml" />
+    <Content Include="Views\JS\ListaProductos.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

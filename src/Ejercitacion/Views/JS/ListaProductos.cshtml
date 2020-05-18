@@ -1,0 +1,67 @@
+﻿
+@{
+	ViewBag.Title = "ListaProductos";
+}
+
+<h2>ListaProductos</h2>
+
+
+
+<label>Código:</label>
+<input type="text" id="codigo" />
+
+<br />
+<br />
+
+<label>Nombre:</label>
+<input type="text" id="nombre" />
+
+<br />
+<br />
+
+<button onclick="Save()">Guardar</button>
+
+<br />
+<br />
+
+<button onclick="Listar()">Listar</button>
+
+<br />
+<br />
+
+<table id="table">
+	
+</table>
+
+@section Scripts {
+	<script type="text/javascript">
+		var vector = [];
+
+		function Save() {
+			var codigo = document.getElementById("codigo");
+			var nombre = document.getElementById("nombre");
+
+			vector.push({ nombre: nombre.value, codigo: codigo.value });
+
+			codigo.value = "";
+			nombre.value = "";
+		};
+
+		function Listar() {
+			var innerTable = "<tr><th>Nombre</th><th>Código</th></tr>";
+
+			for (var i = 0; i < vector.length; i++) {
+				var item = vector[i];
+				innerTable += "<tr><td>" + item.nombre + "</td><td>" + item.codigo + "</td></tr>";
+			}
+
+			var table = document.getElementById("table");
+			table.innerHTML = innerTable;
+			
+		};
+
+
+	</script>
+}
+
+
